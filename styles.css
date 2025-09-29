@@ -1,1 +1,24 @@
 /*  your css code here. If applicable */
+
+#root{
+	padding:20px;
+	background-color:#f5f5f5;
+}
+.des{
+	border:1px solid black;
+	padding:5px;
+	margin-bottom:20px;
+	background-color:white;
+}
+.doe::after{
+	content:"-john Doe";
+	display:block;
+	text-align:right;
+	font-style:italic;
+}
+.smith::after{
+	content:"-john Smith";
+	display:block;
+	text-align:right;
+	font-style:italic;
+}
