@@ -10,15 +10,7 @@
 	margin-bottom:20px;
 	background-color:white;
 }
-.doe::after{
-	content:"-john Doe";
-	display:block;
-	text-align:right;
-	font-style:italic;
-}
-.smith::after{
-	content:"-john Smith";
-	display:block;
+.author{
 	text-align:right;
 	font-style:italic;
 }
